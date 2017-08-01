@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-server.use('/var/www/vmoh.ir/public_html/', app);
+server.use('/var/www/vmoh.ir/public_html', app);
 app.use('/', index);
 app.use('/users', users);
 
