@@ -1,5 +1,5 @@
 {
-    "secretToken": "TheTokenYouSetInGitlabHook",
-    "email": "sysAdminEmail",
-    "shellCommand": "ShellScriptToPullAndTestAndImplement" 
+    "secretToken": "7Q9PTxO1eLXFMbwxTbZlxQ8bnZkHP1MJrK0V",
+    "email": "email@vmoh.ir",
+    "shellCommand": "/var/www/vmoh.ir/public_html/tbots/instabot/MyqrBB1ZfD1fCXPNZyAxuYIwJauOWhuE76/instabot/gitpull.sh" 
 }
