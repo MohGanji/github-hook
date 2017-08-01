@@ -1,0 +1,5 @@
+{
+    "secretToken": "TheTokenYouSetInGitlabHook",
+    "email": "sysAdminEmail",
+    "shellCommand": "ShellScriptToPullAndTestAndImplement" 
+}
