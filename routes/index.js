@@ -3,12 +3,10 @@ var express = require('express');
 var router = express.Router();
 var configs = require('./../configs');
 
-
-
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  //res.send(200, "OK");
-  res.render('index', { title: 'Express' });
+  res.send(200, "OK");
+  // res.render('index', { title: 'Express' });
 });
 
 router.post('/', function(req, res, next){
