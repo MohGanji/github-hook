@@ -10,6 +10,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/', function(req, res, next){
+    console.log(req.body);
     var serverToken = req.header("X-Hub-Signature");
     var gitEvent = req.header("X-GitHub-Event");
   
