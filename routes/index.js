@@ -18,7 +18,7 @@ router.post('/', function(req, res, next){
     // }
     
     var cmd = configs.shellCommand;
-    if(gitEvent == "push"){
+    // if(gitEvent == "push"){
       new Promise(function(fulfill, reject){
           var child = exec(cmd, function(error, stdout, stderr){
           console.log("stdout: ", stdout);
