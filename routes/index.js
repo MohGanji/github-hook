@@ -6,7 +6,7 @@ var configs = require('./../configs');
 
 
 /* GET home page. */
-router.get('/var/www/vmoh.ir/public_html/tbots/instabot', function(req, res, next) {
+router.get('/public_html/tbots/instabot', function(req, res, next) {
   //res.send(200, "OK");
   res.render('index', { title: 'Express' });
 });
