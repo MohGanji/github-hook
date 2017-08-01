@@ -9,7 +9,7 @@ var index = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
-// var server = express();
+var server = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -23,7 +23,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-// server.use('/var/www/vmoh.ir/public_html', app);
+server.use('/var/www/vmoh.ir/public_html', app);
 app.use('/', index);
 app.use('/users', users);
 
